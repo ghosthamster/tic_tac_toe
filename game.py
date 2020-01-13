@@ -38,7 +38,7 @@ def LOGIC_check_win(game_field:list)->int:
                 return 2
 
 def Start_game():
-    turn = int(input("Enter True - 'O', False - 'X' to start game: " ))
+    turn = int(input("Enter 1 - 'O', 0 - 'X' to start game: " ))
     LOGIC_main(turn)
 
 def main():
